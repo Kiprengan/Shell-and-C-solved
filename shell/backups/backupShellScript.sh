@@ -1,6 +1,6 @@
 #!/bin/bash
 # This first line specify that this is bash script
-
+#This is my shell script program that backup files from a specified directory to desired backup directory, in the event it is done repeatedly it backs up only modified files, also it only backs up files from the directory and ignores subdirectories, source directory for backup and destination / backup directory will be specified as command line arguments. My name is Khadijah Muhammad
 # Getting command line arguments
 source_directory_to_be_backed_up=$1
 # First argument is the given directory to be backed up
